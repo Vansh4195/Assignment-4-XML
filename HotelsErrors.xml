@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Intentionally wrong root element for error #1 -->
+<!-- Error #1: root element should be <Hotels> -->
 <Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="Hotels.xsd">
 
-  <!-- Error #2: missing Rating attribute -->
-  <Hotel>
+  <!-- Hotel block with multiple issues -->
+  <Hotel>  <!-- Error #2: required @Rating attribute missing -->
     <Name>Westin Tempe</Name>
     <Phone>480-968-8885</Phone>
-    <!-- Error #3: second Phone missing -->
-    <!-- Error #4: Address not closed -->
+    <!-- Error #3: second <Phone> element missing -->
     <Address NearestAirport="Sky Harbor">
       <Number>11</Number>
       <Street>E 7th St</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
-    <!-- (no </Address>) -->
+    </Address>
   </Hotel>
 
-  <!-- Error #5: duplicate Name elements -->
+  <!-- Hotel block for duplicate‑name error -->
   <Hotel Rating="4.5">
+    <!-- Error #5: duplicate <Name> elements -->
     <Name>Omni Scottsdale Resort &amp; Spa at Montelucia</Name>
     <Name>Omni Duplicate Name</Name>
     <Phone>480-627-3200</Phone>
