@@ -6,7 +6,7 @@
     <Name>Westin Tempe</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
       <Number>11</Number>
       <Street>E 7th St</Street>
       <City>Tempe</City>
@@ -18,7 +18,7 @@
   <Hotel Rating="4.5">
     <Name>Hyatt Regency Phoenix</Name>
     <Phone>602-252-1234</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
       <Number>122</Number>
       <Street>N 2nd St</Street>
       <City>Phoenix</City>
@@ -30,7 +30,7 @@
   <Hotel>
     <Name>Sheraton Grand Phoenix</Name>
     <Phone>602-262-2500</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
       <Number>340</Number>
       <Street>N 3rd St</Street>
       <City>Phoenix</City>
@@ -42,7 +42,7 @@
   <Hotel Rating="4.1">
     <Name>Hilton Phoenix Airport</Name>
     <Phone>480-894-1600</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
       <Number>2435</Number>
       <Street>S 47th St</Street>
       <City>Phoenix</City>
@@ -54,7 +54,7 @@
   <Hotel Rating="4.3">
     <Name>Marriott Phoenix Resort at The Buttes</Name>
     <Phone>602-225-9000</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
       <Number>2000</Number>
       <Street>Westcourt Way</Street>
       <City>Tempe</City>
@@ -66,7 +66,7 @@
   <Hotel Rating="4.6">
     <Name>Omni Scottsdale Resort &amp; Spa at Montelucia</Name>
     <Phone>480-627-3200</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
       <Number>4949</Number>
       <Street>E Lincoln Dr</Street>
       <City>Paradise Valley</City>
@@ -79,7 +79,7 @@
     <Name>Renaissance Phoenix Downtown</Name>
     <Phone>602-333-0000</Phone>
     <Phone>800-468-3571</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
       <Number>100</Number>
       <Street>N 1st St</Street>
       <City>Phoenix</City>
@@ -91,7 +91,7 @@
   <Hotel Rating="4.4">
     <Name>Kimpton Hotel Palomar Phoenix</Name>
     <Phone>602-253-6633</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
       <Number>2</Number>
       <Street>E Jefferson St</Street>
       <City>Phoenix</City>
@@ -103,7 +103,7 @@
   <Hotel>
     <Name>Drury Inn &amp; Suites Phoenix Airport</Name>
     <Phone>602-437-8400</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
       <Number>3333</Number>
       <Street>E University Dr</Street>
       <City>Phoenix</City>
@@ -115,7 +115,7 @@
   <Hotel Rating="4.0">
     <Name>Courtyard Scottsdale Old Town</Name>
     <Phone>480-429-7785</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
       <Number>3311</Number>
       <Street>N Scottsdale Rd</Street>
       <City>Scottsdale</City>
