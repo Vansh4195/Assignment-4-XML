@@ -1,27 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Intentionally wrong root element for error #1 -->
 <Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="Hotels.xsd">
+
+  <!-- Error #2: missing Rating attribute -->
   <Hotel>
-    <Name>Westin Tempe</Name>
+    <Name>Westin Tempe</Name>
     <Phone>480-968-8885</Phone>
+    <!-- Error #3: second Phone missing -->
+    <!-- Error #4: Address not closed -->
     <Address NearestAirport="Sky Harbor">
       <Number>11</Number>
-      <Street>E 7th St</Street>
+      <Street>E 7th St</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
+    <!-- (no </Address>) -->
   </Hotel>
 
+  <!-- Error #5: duplicate Name elements -->
   <Hotel Rating="4.5">
-    <Name>Hyatt Regency Phoenix</Name>
-    <Name>Hyatt Duplicate Name</Name>
-    <Phone>602-252-1234</Phone>
+    <Name>Omni Scottsdale Resort &amp; Spa at Montelucia</Name>
+    <Name>Omni Duplicate Name</Name>
+    <Phone>480-627-3200</Phone>
     <Address NearestAirport="Sky Harbor">
-      <Number>122</Number>
-      <Street>N 2nd St</Street>
-      <City>Phoenix</City>
+      <Number>4949</Number>
+      <Street>E Lincoln Dr</Street>
+      <City>Paradise Valley</City>
       <State>AZ</State>
-      <Zip>85004</Zip>
+      <Zip>85253</Zip>
     </Address>
   </Hotel>
 </Hotel>
