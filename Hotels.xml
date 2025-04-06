@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="Hotels.xsd">
+
   <Hotel Rating="4.2">
     <Name>Westin Tempe</Name>
     <Phone>480-968-8885</Phone>
@@ -15,11 +16,11 @@
   </Hotel>
 
   <Hotel Rating="4.5">
-    <Name>Hyatt Regency Phoenix</Name>
+    <Name>Hyatt Regency Phoenix</Name>
     <Phone>602-252-1234</Phone>
     <Address NearestAirport="Sky Harbor">
       <Number>122</Number>
-      <Street>N 2nd St</Street>
+      <Street>N 2nd St</Street>
       <City>Phoenix</City>
       <State>AZ</State>
       <Zip>85004</Zip>
@@ -27,11 +28,11 @@
   </Hotel>
 
   <Hotel>
-    <Name>Sheraton Grand Phoenix</Name>
+    <Name>Sheraton Grand Phoenix</Name>
     <Phone>602-262-2500</Phone>
     <Address NearestAirport="Sky Harbor">
       <Number>340</Number>
-      <Street>N 3rd St</Street>
+      <Street>N 3rd St</Street>
       <City>Phoenix</City>
       <State>AZ</State>
       <Zip>85004</Zip>
@@ -39,11 +40,11 @@
   </Hotel>
 
   <Hotel Rating="4.1">
-    <Name>Hilton Phoenix Airport</Name>
+    <Name>Hilton Phoenix Airport</Name>
     <Phone>480-894-1600</Phone>
     <Address NearestAirport="Sky Harbor">
       <Number>2435</Number>
-      <Street>S 47th St</Street>
+      <Street>S 47th St</Street>
       <City>Phoenix</City>
       <State>AZ</State>
       <Zip>85034</Zip>
@@ -51,11 +52,11 @@
   </Hotel>
 
   <Hotel Rating="4.3">
-    <Name>Marriott Phoenix Resort at The Buttes</Name>
+    <Name>Marriott Phoenix Resort at The Buttes</Name>
     <Phone>602-225-9000</Phone>
     <Address NearestAirport="Sky Harbor">
       <Number>2000</Number>
-      <Street>Westcourt Way</Street>
+      <Street>Westcourt Way</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85282</Zip>
@@ -63,24 +64,24 @@
   </Hotel>
 
   <Hotel Rating="4.6">
-    <Name>Omni Scottsdale Resort & Spa at Montelucia</Name>
+    <Name>Omni Scottsdale Resort &amp; Spa at Montelucia</Name>
     <Phone>480-627-3200</Phone>
     <Address NearestAirport="Sky Harbor">
       <Number>4949</Number>
-      <Street>E Lincoln Dr</Street>
-      <City>Paradise Valley</City>
+      <Street>E Lincoln Dr</Street>
+      <City>Paradise Valley</City>
       <State>AZ</State>
       <Zip>85253</Zip>
     </Address>
   </Hotel>
 
   <Hotel>
-    <Name>Renaissance Phoenix Downtown</Name>
+    <Name>Renaissance Phoenix Downtown</Name>
     <Phone>602-333-0000</Phone>
     <Phone>800-468-3571</Phone>
     <Address NearestAirport="Sky Harbor">
       <Number>100</Number>
-      <Street>N 1st St</Street>
+      <Street>N 1st St</Street>
       <City>Phoenix</City>
       <State>AZ</State>
       <Zip>85004</Zip>
@@ -88,11 +89,11 @@
   </Hotel>
 
   <Hotel Rating="4.4">
-    <Name>Kimpton Hotel Palomar Phoenix</Name>
+    <Name>Kimpton Hotel Palomar Phoenix</Name>
     <Phone>602-253-6633</Phone>
     <Address NearestAirport="Sky Harbor">
       <Number>2</Number>
-      <Street>E Jefferson St</Street>
+      <Street>E Jefferson St</Street>
       <City>Phoenix</City>
       <State>AZ</State>
       <Zip>85004</Zip>
@@ -100,11 +101,11 @@
   </Hotel>
 
   <Hotel>
-    <Name>Drury Inn & Suites Phoenix Airport</Name>
+    <Name>Drury Inn &amp; Suites Phoenix Airport</Name>
     <Phone>602-437-8400</Phone>
     <Address NearestAirport="Sky Harbor">
       <Number>3333</Number>
-      <Street>E University Dr</Street>
+      <Street>E University Dr</Street>
       <City>Phoenix</City>
       <State>AZ</State>
       <Zip>85034</Zip>
@@ -112,11 +113,11 @@
   </Hotel>
 
   <Hotel Rating="4.0">
-    <Name>Courtyard Scottsdale Old Town</Name>
+    <Name>Courtyard Scottsdale Old Town</Name>
     <Phone>480-429-7785</Phone>
     <Address NearestAirport="Sky Harbor">
       <Number>3311</Number>
-      <Street>N Scottsdale Rd</Street>
+      <Street>N Scottsdale Rd</Street>
       <City>Scottsdale</City>
       <State>AZ</State>
       <Zip>85251</Zip>
