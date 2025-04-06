@@ -1,34 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Error #1: root element should be <Hotels> -->
-<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:noNamespaceSchemaLocation="Hotels.xsd">
 
-  <!-- Error #2: missing Rating attribute -->
-  <Hotel>
-    <Name>Westin Tempe</Name>
+<Hotel>
+
+  
+  <Hotel Rating="4.2">
+    <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
-    <!-- Error #3: second Phone missing -->
+    <Phone>800-937-8461</Phone>
     <Address NearstAirport="Sky Harbor">
       <Number>11</Number>
       <Street>E 7th St</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
-    </Address>              
-  </Hotel>
-
-  <!-- Hotel block for duplicate‑name error -->
-  <Hotel Rating="4.5">
-    <!-- Error #5: duplicate <Name> elements -->
-    <Name>Omni Scottsdale Resort &amp; Spa at Montelucia</Name>
-    <Name>Omni Duplicate Name</Name>
-    <Phone>480-627-3200</Phone>
-    <Address NearstAirport="Sky Harbor">
-      <Number>4949</Number>
-      <Street>E Lincoln Dr</Street>
-      <City>Paradise Valley</City>
-      <State>AZ</State>
-      <Zip>85253</Zip>
     </Address>
   </Hotel>
+
+  
+  <Hotel>
+    <Name>Hilton Garden Inn</Name>
+    <Phone>602-470-0500</Phone>
+    <Address NearstAirport="Sky Harbor">
+      <Number>3838</Number>
+      <Street>E Van Buren St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85008</Zip>
+    </Address>
+  </Hotel>
+
+  
+  <Hotel Rating="4.1">
+    <Name>Courtyard Marriott</Name>
+    
+    <Address>
+      <Number>601</Number>
+      <Street>S Ash Ave</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+  
+  <Hotel Rating="3.9">
+    <Name>Hyatt Place</Name>
+    <Phone>480-588-8334</Phone>
+    <Address NearstAirport="Sky Harbor">
+      <Number>1413</Number>
+      <Street>W Rio Salado Pkwy</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    
+  </Hotel>
+
+ 
+  <Hotel Rating="4.3">
+    <Name>Sheraton Downtown</Name>
+    <Name>Extra Name</Name>
+    <Phone>602-262-2500</Phone>
+    <Address>
+      <Number>340</Number>
+      <Street>N 3rd St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+    </Address>
+  </Hotel>
+
 </Hotel>
