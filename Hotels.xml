@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Hotels>
+<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="https://Vansh4195.github.io/Assignment-4-XML/Hotels.xsd">
+
   <Hotel Rating="4.2">
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
@@ -12,114 +14,127 @@
       <Zip>85281</Zip>
     </Address>
   </Hotel>
-  <Hotel Rating="4.0">
-    <Name>Hilton Garden Inn</Name>
-    <Phone>602-470-0500</Phone>
+
+  <Hotel Rating="4.6">
+    <Name>Hilton Phoenix</Name>
+    <Phone>602-200-1234</Phone>
     <Address NearstAirport="Sky Harbor">
-      <Number>3838</Number>
-      <Street>E Van Buren St</Street>
-      <City>Phoenix</City>
-      <State>AZ</State>
-      <Zip>85008</Zip>
-    </Address>
-  </Hotel>
-  <Hotel Rating="4.1">
-    <Name>Courtyard Marriott</Name>
-    <Phone>480-966-2800</Phone>
-    <Address>
-      <Number>601</Number>
-      <Street>S Ash Ave</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85281</Zip>
-    </Address>
-  </Hotel>
-  <Hotel Rating="3.9">
-    <Name>Hyatt Place</Name>
-    <Phone>480-588-8334</Phone>
-    <Address NearstAirport="Sky Harbor">
-      <Number>1413</Number>
-      <Street>W Rio Salado Pkwy</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85281</Zip>
-    </Address>
-  </Hotel>
-  <Hotel Rating="4.3">
-    <Name>Sheraton Downtown</Name>
-    <Phone>602-262-2500</Phone>
-    <Address>
-      <Number>340</Number>
+      <Number>400</Number>
       <Street>N 3rd St</Street>
       <City>Phoenix</City>
       <State>AZ</State>
       <Zip>85004</Zip>
     </Address>
   </Hotel>
-  <Hotel Rating="4.4">
-    <Name>Renaissance Phoenix</Name>
-    <Phone>602-333-0000</Phone>
-    <Address>
-      <Number>100</Number>
-      <Street>N 1st St</Street>
-      <City>Phoenix</City>
-      <State>AZ</State>
-      <Zip>85004</Zip>
-    </Address>
-  </Hotel>
-  <Hotel Rating="3.8">
-    <Name>Holiday Inn Express</Name>
-    <Phone>480-966-7202</Phone>
-    <Address>
-      <Number>1520</Number>
-      <Street>S 52nd St</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85281</Zip>
-    </Address>
-  </Hotel>
-  <Hotel Rating="4.0">
-    <Name>Hampton Inn Phoenix</Name>
-    <Phone>602-267-0606</Phone>
-    <Address NearstAirport="Sky Harbor">
-      <Number>3434</Number>
-      <Street>N 40th St</Street>
-      <City>Phoenix</City>
-      <State>AZ</State>
-      <Zip>85018</Zip>
-    </Address>
-  </Hotel>
-  <Hotel Rating="4.1">
-    <Name>DoubleTree Suites</Name>
-    <Phone>480-967-1441</Phone>
-    <Address>
-      <Number>2100</Number>
-      <Street>S Priest Dr</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85282</Zip>
-    </Address>
-  </Hotel>
-  <Hotel Rating="4.5">
-    <Name>Kimpton Palomar</Name>
-    <Phone>480-478-1775</Phone>
-    <Address>
-      <Number>2</Number>
-      <Street>E Jefferson St</Street>
-      <City>Phoenix</City>
-      <State>AZ</State>
-      <Zip>85004</Zip>
-    </Address>
-  </Hotel>
+
   <Hotel Rating="3.9">
-    <Name>Aloft Tempe</Name>
-    <Phone>480-566-8700</Phone>
+    <Name>Motel Sun</Name>
+    <Phone>602-555-8000</Phone>
     <Address>
-      <Number>951</Number>
-      <Street>E Playa del Norte Dr</Street>
-      <City>Tempe</City>
+      <Number>1234</Number>
+      <Street>Sunrise Ave</Street>
+      <City>Phoenix</City>
       <State>AZ</State>
-      <Zip>85288</Zip>
+      <Zip>85001</Zip>
     </Address>
   </Hotel>
+
+  <Hotel Rating="5.0">
+    <Name>Fancy Suites</Name>
+    <Phone>480-111-2222</Phone>
+    <Phone>888-111-2222</Phone>
+    <Address NearstAirport="Sky Harbor">
+      <Number>1</Number>
+      <Street>Luxury Blvd</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85250</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.1">
+    <Name>Desert Inn</Name>
+    <Phone>480-765-4321</Phone>
+    <Address>
+      <Number>202</Number>
+      <Street>Cactus Way</Street>
+      <City>Mesa</City>
+      <State>AZ</State>
+      <Zip>85202</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="3.5">
+    <Name>Grand Canyon Lodge</Name>
+    <Phone>928-333-9999</Phone>
+    <Address>
+      <Number>10</Number>
+      <Street>Grand View Rd</Street>
+      <City>Flagstaff</City>
+      <State>AZ</State>
+      <Zip>86001</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="3.8">
+    <Name>Desert Quail Inn</Name>
+    <Phone>928-555-1010</Phone>
+    <Address NearstAirport="Sky Harbor">
+      <Number>6626</Number>
+      <Street>Highway 179</Street>
+      <City>Sedona</City>
+      <State>AZ</State>
+      <Zip>86351</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.0">
+    <Name>Lake Havasu Motel</Name>
+    <Phone>928-444-7777</Phone>
+    <Address>
+      <Number>410</Number>
+      <Street>London Bridge Rd</Street>
+      <City>Lake Havasu City</City>
+      <State>AZ</State>
+      <Zip>86403</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.3">
+    <Name>Prescott Pines</Name>
+    <Phone>928-123-4567</Phone>
+    <Address>
+      <Number>500</Number>
+      <Street>Pine Cone Ln</Street>
+      <City>Prescott</City>
+      <State>AZ</State>
+      <Zip>86301</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.5">
+    <Name>Marriott Desert Ridge</Name>
+    <Phone>480-555-9999</Phone>
+    <Phone>888-555-9999</Phone>
+    <Address NearstAirport="Sky Harbor">
+      <Number>5350</Number>
+      <Street>E Marriott Dr</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85054</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="3.2">
+    <Name>Budget Stay</Name>
+    <Phone>602-000-1234</Phone>
+    <Address>
+      <Number>76</Number>
+      <Street>Cheap Inn Rd</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85003</Zip>
+    </Address>
+  </Hotel>
+
 </Hotels>
